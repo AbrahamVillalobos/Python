@@ -50,3 +50,29 @@ Saturno	1433500000
 Urano	2872500000
 
 Neptuno	4495100000
+
+
+RESPUESTAS
+
+                from datetime import date
+                print(date.today())
+                
+                
+                                print('introduce la cantidad de centimetros que deseas convertir a metros')
+                cen=input("introduce los centimetros: ")
+                print(int(cen)/100)
+                
+                
+                
+                              print('introduce la cantidad de centimetros que deseas convertir a metros')
+              cen=input("introduce los centimetros: ")
+              met=int(cen)/100
+              print(met)
+              
+              
+                            print('introduce la distancia del planeta más lejano al sol')
+              lejos=input("planeta lejano")
+              print('introduce la distancia del planeta mas cercano al sol')
+              cerca=input("planeta cercano")
+              dis=int(lejos)-int(cerca)
+              print(dis)
