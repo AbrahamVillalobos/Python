@@ -14,3 +14,6 @@ Responder las siguientes preguntas:
 
 1.3 Ejercicio 1 (2 puntos)
 Escribir un programa que pregunte al usuario su nombre, y luego lo salude.
+
+      nombre=(input('ingresa tu nombre'))
+      print('hola '+nombre)
