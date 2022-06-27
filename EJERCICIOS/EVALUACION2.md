@@ -32,8 +32,8 @@ Calcular el perímetro y área de un rectángulo dada su base y su altura.
 Respuesta:
 
     base=input('ingresa la base')
-altura=input('ingresa la altura')
-res=int(base)*int(altura)
-print(res)
+    altura=input('ingresa la altura')
+    res=int(base)*int(altura)
+    print(res)
 
 
