@@ -6,6 +6,59 @@ y posteriormente muestre en pantalla cada elemento de la lista junto con su
 cuadrado y su cubo.
 Respuesta:
 
+      from random import randint
+
+
+      num1=randint(1,10)
+      num2=randint(1,10)
+      num3=randint(1,10)
+      num4=randint(1,10)
+      num5=randint(1,10)
+      num6=randint(1,10)
+      num7=randint(1,10)
+      num8=randint(1,10)
+      num9=randint(1,10)
+      num10=randint(1,10)
+
+      cua1=int(num1)**2
+      cua2=int(num2)**2
+      cua3=int(num3)**2
+      cua4=int(num4)**2
+      cua5=int(num5)**2
+      cua6=int(num6)**2
+      cua7=int(num7)**2
+      cua8=int(num8)**2
+      cua9=int(num9)**2
+      cua10=int(num10)**2
+
+      cub1=int(num1)**3
+      cub2=int(num2)**3
+      cub3=int(num3)**3
+      cub4=int(num4)**3
+      cub5=int(num5)**3
+      cub6=int(num6)**3
+      cub7=int(num7)**3
+      cub8=int(num8)**3
+      cub9=int(num9)**3
+      cub10=int(num10)**3
+
+      print('a continuacion se muestran: \n cuadrados \n cubos')
+
+      print(num1, cua1, cub1)
+      print(num2, cua2, cub2)
+      print(num3, cua3, cub3)
+      print(num4, cua4, cub4)
+      print(num5, cua5, cub5)
+      print(num6, cua6, cub6)
+      print(num7, cua7, cub7)
+      print(num8, cua8, cub8)
+      print(num9, cua9, cub9)
+      print(num10, cua10, cub10)
+      
+      
+      
+      
+
 ### 4.2 Ejercicio 2 (1.2 puntos)
 Crea una lista e inicializarla con 5 cadenas de caracteres leídas por teclado. Copia
 los elementos de la lista en otra lista pero en orden inverso, y muestra sus
